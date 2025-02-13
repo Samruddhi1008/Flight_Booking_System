@@ -1,76 +1,68 @@
-# Flight_Booking_System
-Java Flight Booking System
+# Flight Booking System
 
-This project is a Java-based Flight Booking System that allows users to book flights, view flight information, select seats, and process payments.
+## Overview
+The **Flight Booking System** is a comprehensive Java-based application designed to allow users to search, book, and manage flight tickets with ease.
 
-Features
+## Features
+✅ **Flight Search** – Search for flights based on source, destination, and date.  
+✅ **Booking System** – Book flight tickets with seat selection and passenger details.  
+✅ **Payment Integration** – Simulates payment processing for bookings.  
+✅ **View Bookings** – Check booking details and flight schedules.  
+✅ **User-Friendly Interface** – Simple and intuitive GUI for seamless operations.
 
-Display available flights with details like flight number, destination, and departure time.
+## Tech Stack
+- **Language:** Java
+- **IDE:** IntelliJ IDEA / Eclipse
+- **GUI Framework:** Swing / JavaFX
+- **Database:** MySQL (optional for advanced features)
 
-Seat selection with real-time availability updates.
+## Installation
 
-Secure payment processing simulation.
+### **Prerequisites**
+- Java 8+
+- IDE for Java development (IntelliJ IDEA/Eclipse)
+- (Optional) MySQL database setup
 
-User-friendly command-line interface.
+### **Steps to Install and Run**
 
-Prerequisites
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/Flight-Booking-System.git
+   cd Flight-Booking-System
+   ```
 
-Java Development Kit (JDK) version 8 or higher.
+2. **Open the Project in IDE:**
+   - Open IntelliJ IDEA/Eclipse and import the project.
 
-IntelliJ IDEA or any Java-supported IDE.
+3. **Run the Application:**
+   - Locate the main class `FlightBookingApp.java`.
+   - Run the file to launch the system.
 
-How to Run
+## Usage
+1. Launch the application.
+2. Search for available flights.
+3. Select and book your desired flight.
+4. Enter passenger details and confirm payment.
+5. View your booking details.
 
-Clone the repository:
+## Code Structure
+| File | Description |
+|------|-------------|
+| `FlightBookingApp.java` | Main logic and GUI implementation |
+| `Flight.java` | Defines flight details and operations |
+| `Booking.java` | Handles booking process and data |
 
-git clone https://github.com/yourusername/Java-Flight-Booking-System.git
+## Contributing
+We welcome contributions! To contribute:
+1. Fork the repository
+2. Create a new branch (`feature-xyz`)
+3. Commit your changes
+4. Push to your fork and submit a Pull Request
 
-Navigate to the project directory:
+## Contact
+For any questions or feedback, reach out to:
+- **Email:** your-samu6aai@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](www.linkedin.com/in/samruddhi-gore-b621242b0)
 
-cd Java-Flight-Booking-System
-
-Compile the code:
-
-javac FlightBookingSystem.java
-
-Run the system:
-
-java FlightBookingSystem
-
-Code Structure
-
-FlightBookingSystem.java: Main class handling flight listings, seat selection, and payment processing.
-
-Flight.java: Represents flight details like flight number, origin, destination, and time.
-
-Seat.java: Manages seat availability and assignment.
-
-Payment.java: Simulates payment processing.
-
-Sample Output
-
-Available Flights:
-1) F123 - Mumbai to Delhi - 10:00 AM
-2) F456 - Pune to Bangalore - 3:00 PM
-Select a flight: 1
-Available Seats: A1, A2, B1, B2
-Select a seat: A1
-Enter payment details:
-Payment successful!
-Booking confirmed for Flight F123, Seat A1.
-
-Contributing
-
-Pull requests are welcome! Open an issue to discuss changes before making them.
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
-
-Author: Samruddhi Gore
-
-Email: samu6aai@gmail.com
-
-LinkedIn: www.linkedin.com/in/samruddhi-gore-b621242b0
+---
+✈️ **Flight Booking System – Book Your Flights with Ease!**
